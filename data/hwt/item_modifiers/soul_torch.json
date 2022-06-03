@@ -1,0 +1,14 @@
+{
+    "function": "copy_nbt",
+    "source": {
+        "type": "storage",
+        "source": "torch_ang"
+    },
+    "ops": [
+        {
+            "source": "CustomModelData",
+            "target": "CustomModelData",
+            "op": "replace"
+        }
+    ]
+}

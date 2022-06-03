@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "#hwt:load"
+        "hwt:load/scoreboard"
     ]
 }

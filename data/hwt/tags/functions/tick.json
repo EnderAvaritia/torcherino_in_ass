@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "hwt:tick",
+        "hwt:hitted/player/tick"
+    ]
+}

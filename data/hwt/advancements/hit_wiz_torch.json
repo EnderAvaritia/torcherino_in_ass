@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "hit_wiz_torch":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["soul_torch"]
+                        }
+                    },
+                    "flags": {
+                        "is_sneaking": true
+                    }
+                },
+                "entity": {
+                    "nbt":"{Tags:[\"unhitted\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "hwt:hitter/hit_wiz_torch"
+    }
+}

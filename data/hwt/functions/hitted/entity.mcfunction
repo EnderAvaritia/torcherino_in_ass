@@ -1,0 +1,1 @@
+execute as @s[type=minecraft:creeper] run function hwt:hitted/entity/creeper

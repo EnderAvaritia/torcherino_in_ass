@@ -1,5 +1,6 @@
 {
-    "values":[
-        "torcherino_in_ass:tick"
+    "replace": false,
+    "values": [
+        "#hwt:tick"
     ]
 }
